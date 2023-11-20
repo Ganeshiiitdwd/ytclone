@@ -1,0 +1,8 @@
+useEffect(()=>{fetchData(`search?part=snippet&q=${selectedcg}`)},[selectedcg]) this is the asynchronous function hence to get ride of the problem
+of doing data.length<1 etc adjustment we use the basics of asynchronous as the value return by it will be accessed by the
+.then((data)=>setvideo(data))
+
+u can use css gradient(website) to get the gradient and colors 
+
+when u want to make some specific changes in the reusable component then u can pass that changes as the props as
+the other place where u will use it that componenet won't pass that componenet
